@@ -4,7 +4,7 @@ using namespace std;
 
 class Node
 {
-    public : 
+public : 
     string info;
     Node* leftchild;
     Node* rightchild;
@@ -20,5 +20,6 @@ class Node
 
 class BinaryTree
 {
-    
+public :
+    Node* ROOT = nullptr;
 };
