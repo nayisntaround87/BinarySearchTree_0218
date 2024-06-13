@@ -42,7 +42,11 @@ public :
         if (parent == nullptr) // if the parent is NULL (Tree is empty)
         {
             ROOT = newNode; // mark the new node as ROOT
-            return; exit
+            return; // exit
+        }
+
+        if(element < parent->info) // if the value in the data field of the new node is less than that of the parent
+        {
         }
     } 
 };
