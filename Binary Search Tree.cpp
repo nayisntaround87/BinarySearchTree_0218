@@ -22,4 +22,9 @@ class BinaryTree
 {
 public :
     Node* ROOT = nullptr;
+
+    BinaryTree()
+    {
+        
+    }
 };
