@@ -30,6 +30,6 @@ public :
 
     void insert(string element) //insert a node in the binary search tree
     {
-        Node
+        Node* newNode = new Node(element, nullptr, nullptr); // alocate memory for the new node
     } 
 };
